@@ -1,0 +1,53 @@
+body {
+  background-color: #F5EFE6;
+}
+
+h1 {
+  color: #7895B2;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #AEBDCA;
+  font-family: sans-serif;
+}
+p {
+  font-family: sans-serif;
+}
+
+table {
+  font-family: sans-serif;
+}
+a {
+  font-family: sans-serif;
+}
+
+ol {
+  font-family: sans-serif;
+}
+
+ul {
+  font-family: sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #7895B2;
+  border-width: 5px;
+  width: 10%;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+/************************************CLASS SELECTORS***************************************/
+.headerimage {
+  height: 160px;
+}
+
+/************************************ID SELECTORS***************************************/
+#hero {
+
+}
