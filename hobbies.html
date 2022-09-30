@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My Hobbies</title>
+  <title>Contact Me</title>
   <link rel="stylesheet" href="css/styles.css">
   <script>
     window['_fs_host'] = 'fullstory.com';
@@ -90,16 +90,31 @@
 </head>
 
 <body>
-  <h3>My Hobbies</h3>
-  <ol>
-    <li>Football</li>
-    <li>Cooking</li>
-    <li>Drinking</li>
-    <ul>
-      <li>Beer</li>
-      <li>Wine</li>
-    </ul>
-  </ol>
+  <h1>Contact Details</h1>
+  <p>My Address</p>
+  <p>Telephone Number</p>
+  <hr>
+  <form class="" action="mailto:adamfleming.1993@gmail.com" method="post" enctype="text/plain">
+    <table>
+      <tr>
+        <td><label>Your Name</label></td>
+        <td><input type="text" name="yourName" value=""></td>
+      </tr>
+      <tr>
+        <td><label>Your Email</label></td>
+        <td><input type="email" name="yourEmail" value=""></td>
+      </tr>
+      <tr>
+        <td><label>Your message</label></td>
+        <td><textarea name="yourMessage" rows="10" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td><label>Do you agree to cookies?</label></td>
+        <td><input type="checkbox" name="cookiePermissions" value=""></td>
+      </tr>
+    </table>
+    <input type="Submit">
+  </form>
 </body>
 
 </html>
